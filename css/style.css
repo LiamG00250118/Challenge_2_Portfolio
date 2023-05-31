@@ -1,0 +1,143 @@
+* {
+  font-family: "Playfair";
+  background-color: lightslategray;
+}
+
+.header {
+  background-color: lightslategray;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+nav a {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 1s;
+  border-radius: 10px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: gray;
+  background-size: 15px 15px;
+  text-decoration: underline;
+}
+
+.custom_image {
+  width: 1904px;
+  height: 500px;
+}
+
+.about_me {
+  background-color: gray;
+}
+.about_me h1 {
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+
+.about_me p {
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  opacity: 0.3;
+  transition: opacity 1.5s;
+}
+
+.img1:hover {
+  opacity: 1;
+}
+
+#work {
+  background-color: gray;
+}
+
+#work h1 {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.header1 {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+
+.header2 {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+
+.img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  opacity: 0.3;
+  transition: opacity 1.5s;
+}
+
+.img2:hover {
+  opacity: 1;
+}
+
+.contactheader {
+  display: block;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.contactinfo {
+  display: block;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+#contact {
+  background-color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .custom_image {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .custom_image {
+    width: 1300px;
+    height: 500px;
+  }
+}
