@@ -39,8 +39,9 @@ nav a:hover {
 }
 
 .custom_image {
-  width: 1904px;
-  height: 500px;
+  /* width: 1904px; */
+  width: 100%;
+  height: auto;
 }
 
 .about_me {
@@ -128,16 +129,28 @@ nav a:hover {
   background-color: gray;
 }
 
-@media screen and (max-width: 900px) {
-  .custom_image {
-    width: 900px;
+@media screen and (max-width: 680px) {
+  /* .custom_image {
+    width: 1300px;
     height: 500px;
+  } */
+
+  .header1 {
+    font-size: 25px;
+  }
+
+  .header2 {
+    font-size: 25px;
+  }
+
+  #work h1 {
+    font-size: 200%;
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .custom_image {
-    width: 1300px;
+@media screen and (max-width: 1024px) {
+  /* .custom_image {
+    width: 900px;
     height: 500px;
-  }
+  } */
 }
